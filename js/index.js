@@ -271,7 +271,7 @@ $(function(){
 			});
 	});
 //内容适应居中
-	size=function(){
+	var size=function(){
 		$("aside").css({"top":($(".active").height()-$("aside").height())/2});
 		$("#home_content").css({"padding-top":($(".active").height()-$("#home_content").height())/6});
 		$("#about_content").css({"padding-top":($(".active").height()-$("#about_content").height())/6});
